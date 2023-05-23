@@ -19,7 +19,7 @@ export default function Footer() {
       </div>
 
       <div className="flex mt=20 justify-center  gap-10 pb-10">
-      <FaFacebookSquare size={30}  />
+      <FaFacebookSquare size={30}/>
       <BsLinkedin size={30}/>
       <SiMessenger size={30}/>
       <IoLogoYoutube size={30} />
