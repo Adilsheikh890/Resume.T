@@ -11,7 +11,7 @@ export default function Home() {
     <div className=" text-center pt-6 py-10  ">
       <h3 className="text-white  md:pr-20 font-semibold pt-10">Hello I m </h3>
       <h1 className="text-white  md:pr-20 font-bold text-4xl">Adil</h1>
-      <h3 className="text-white  md:pr-20 font-semibold">Mern Stack Developer</h3>
+      <h3 className="text-white  md:pr-20 font-semibold">Full Stack Developer</h3>
 
       <div className="flex text-center md:pr-20 justify-center mt-10 gap-8 "> 
       <button className=" outline outline-offset-2 outline-teal-500 rounded-lg text-lg p-2 font-medium text-teal-500">Download C.V</button>
@@ -21,7 +21,7 @@ export default function Home() {
 
     {/* image */}
     <div className=" mx-auto mt-7 items-center p-5 md:pl-[500px] md:pr-20">
-    <Image src="/male.jpg" alt="logo design" width={300} height={600} className="  w-lg h-95  object-contain rounded-t-full "></Image>
+    <Image src="/teal.png" alt="logo design" width={300} height={600} className="w-lg h-95  object-contain rounded-t-full "></Image>
     </div>
     {/* end */}
     
@@ -34,7 +34,7 @@ export default function Home() {
       {/* <div className=" pl-20 pr-20"> */}
       <div className=" md:pl-20">
       <div className="flex gap-1  md:flex-row flex-col pt-10  ">
-        <Image src="/male.jpg" alt='logos full'  width={500}  height={500} className="md:pl-40  p-8  "></Image>
+        <Image src="/teal.png" alt='logos full'  width={500}  height={500} className="md:pl-40  p-8  "></Image>
         <div className="  md:pl-25 md:pr-10 md:w-1/2 ">
         
         <p className="pt-10 md:text-lg p-7  text-teal-500  ">I look forward to bringing my strong creative technical and analytical skills to Full-Stack Development with developing and delivering user-centric applications and solutions. Throughout my career I have been recognized as a professional who is focused on finding solutions and is capable of designing and developing cutting-edge applications using cutting-edge technologies.
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="shadow-md border-2 rounded-md shadow-gray-600  h-60 hover:scale-105 duration-75 ">
           <div>
               <Image
-                src={"/qw.png"} alt='logo'
+                src={"/qw.png"} alt='logo' width={300} height={300}
                 className="w-60 h-40 border-b-2 rounded-t-md"  ></Image>
            </div>
 
@@ -322,4 +322,4 @@ export default function Home() {
   )
 }
 
-// https://bisma-portfolio.firebaseapp.com/#
+// next/core-web-vitals
