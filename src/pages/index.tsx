@@ -5,6 +5,7 @@ import {TiTickOutline} from 'react-icons/Ti';
 
 
 
+
 export default function Home() {
   return (
     <div className="bg-[url('/pattern-01.jpg')] bg-no-repeat bg-cover mt-15 mx-auto ">
