@@ -21,7 +21,7 @@ export default function Home() {
 
     {/* image */}
     <div className=" mx-auto mt-7 items-center p-5 md:pl-[500px] md:pr-20">
-    <Image src="/teal.png" alt="logo design" width={300} height={600} className="w-lg h-95  object-contain rounded-t-full "></Image>
+    <Image src="/teal.png" alt="logo design" width={300} height={600} className="w-lg h-95  object-contain rounded-t-full "/>
     </div>
     {/* end */}
     
@@ -34,7 +34,7 @@ export default function Home() {
       {/* <div className=" pl-20 pr-20"> */}
       <div className=" md:pl-20">
       <div className="flex gap-1  md:flex-row flex-col pt-10  ">
-        <Image src="/teal.png" alt='logos full'  width={500}  height={500} className="md:pl-40  p-8  "></Image>
+        <Image src="/teal.png" alt='logos full'  width={500}  height={500} className="md:pl-40  p-8  "/>
         <div className="  md:pl-25 md:pr-10 md:w-1/2 ">
         
         <p className="pt-10 md:text-lg p-7  text-teal-500  ">I look forward to bringing my strong creative technical and analytical skills to Full-Stack Development with developing and delivering user-centric applications and solutions. Throughout my career I have been recognized as a professional who is focused on finding solutions and is capable of designing and developing cutting-edge applications using cutting-edge technologies.
@@ -126,7 +126,7 @@ export default function Home() {
           <div>
               <Image
                 src={"/qw.png"} alt='logo' width={300} height={300}
-                className="w-60 h-40 border-b-2 rounded-t-md"  ></Image>
+                className="w-60 h-40 border-b-2 rounded-t-md" / >
            </div>
 
            <div className="flex justify-between px-5 text-white">
@@ -147,9 +147,9 @@ export default function Home() {
           {/* card 2 */}
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
-              <img
+              <Image
                 src={"/q2.png"}
-                className="w-60 h-40 border-b-2 rounded-t-md "
+                className="w-60 h-40 border-b-2 rounded-t-md " alt='logo'
               />
             </div>
             <div className="flex justify-between px-5 text-white">
@@ -170,9 +170,9 @@ export default function Home() {
           {/* card 3 */}
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
-              <img
+              <Image
                 src={"/q1.png"}
-                className="w-60 h-40 border-b-2 rounded-t-md"
+                className="w-60 h-40 border-b-2 rounded-t-md" alt='logo'
               />
             </div>
             <div className="flex justify-between px-5 text-white">
@@ -193,10 +193,11 @@ export default function Home() {
           {/* card 4 */}
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
-              <img
-                src={"/q4.png"}
-                className="w-60 h-40 border-b-2  rounded-t-md"
+              <Image
+               src={"/q4.png"}
+               className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
               />
+           
             </div>
             <div className="flex justify-between px-5 text-white">
               <button className="p-4 hover:scale-105 duration-200">
@@ -216,9 +217,9 @@ export default function Home() {
           {/* card 5 */}
           <div className="shadow-md shadow-gray-600 border-2 rounded-md h-60 hover:scale-105 duration-75 ">
             <div>
-              <img
+              <Image
                 src={"/q5.png"}
-                className="w-60 h-40 border-b-2  rounded-t-md"
+                className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
               />
             </div>
             <div className="flex justify-between px-5 text-white">
@@ -238,10 +239,10 @@ export default function Home() {
           {/* card 6 */}
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
-              <img
+              <Image
                 src={"/q3.png"}
-                className="w-60 h-40 border-b-2  rounded-t-md"
-              ></img>
+                className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
+              />
             </div>
             <div className="flex justify-between px-5 text-white">
               <button className="p-4 hover:scale-105 duration-200">
