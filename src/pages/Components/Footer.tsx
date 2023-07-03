@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaFacebook} from 'react-icons/Fa';
-import {BsLinkedin} from 'react-icons/Bs';
+import {AiFillLinkedin} from 'react-icons/Ai';
 import {SiMessenger} from 'react-icons/Si';
 import {IoLogoYoutube} from 'react-icons/Io';
 
@@ -21,7 +21,7 @@ export default function Footer() {
 
       <div className="flex mt=20 justify-center  gap-10 pb-10">
       <FaFacebook size={30}/>
-      <BsLinkedin size={30}/>
+      <AiFillLinkedin size={30}/>
       <SiMessenger size={30}/>
       <IoLogoYoutube size={30} />
 
