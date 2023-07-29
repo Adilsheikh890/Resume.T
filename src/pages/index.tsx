@@ -4,6 +4,7 @@ import {  Check } from 'lucide-react';
 
 
 
+
 export default function Home() {
   return (
     <div className="bg-[url('/pattern-01.jpg')] bg-no-repeat bg-cover mt-15 mx-auto ">
@@ -27,7 +28,7 @@ export default function Home() {
 
     {/* about */}
     
-      <h3 className="text-teal-500  font-semibold pt-20 md:pr-20 text-center">Get to now</h3>
+      <h3 className="text-teal-500  font-semibold pt-20 md:pr-20 text-center">Get To Now</h3>
       <h2 className="text-teal-400 font-autograph text-6xl md:pr-20 text-center">About me</h2>
 
       {/* <div className=" pl-20 pr-20"> */}
