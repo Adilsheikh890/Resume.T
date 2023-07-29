@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import {  Check } from 'lucide-react'
-import {TiTickOutline} from 'react-icons/Ti';
+import {  Check } from 'lucide-react';
 
 
 
@@ -15,7 +14,7 @@ export default function Home() {
 
       <div className="flex text-center md:pr-20 justify-center mt-10 gap-8 "> 
       <button className=" outline outline-offset-2 outline-teal-500 rounded-lg text-lg p-2 font-medium text-teal-500">Download C.V</button>
-       <button className=" rounded-lg   text-lg p-3 bg-teal-500">Let s Tallk</button>
+       <button className=" rounded-lg   text-lg p-3 bg-teal-500">Lrts Talk</button>
       </div>
     </div>
 
