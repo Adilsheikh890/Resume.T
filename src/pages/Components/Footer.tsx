@@ -1,8 +1,5 @@
+import { Facebook , Twitter , Linkedin , Youtube } from 'lucide-react'
 import React from 'react'
-import {FaFacebook} from 'react-icons/Fa';
-import {AiFillLinkedin} from 'react-icons/Ai';
-import {SiMessenger} from 'react-icons/Si';
-import {IoLogoYoutube} from 'react-icons/Io';
 
 
 
@@ -20,11 +17,11 @@ export default function Footer() {
       </div>
 
       <div className="flex mt=20 justify-center  gap-10 pb-10">
-      <FaFacebook size={30}/>
-      <AiFillLinkedin size={30}/>
-      <SiMessenger size={30}/>
-      <IoLogoYoutube size={30} />
-
+      <Facebook size={30}/>
+      <Linkedin size={30}/>
+      <Twitter size={30}/>
+      < Youtube size={30}/>
+      
       </div>
     </div>
   )

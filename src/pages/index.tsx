@@ -1,6 +1,5 @@
 import Image from 'next/image'
-
-
+import {  Check } from 'lucide-react'
 import {TiTickOutline} from 'react-icons/Ti';
 
 
@@ -62,17 +61,17 @@ export default function Home() {
             {/* l-1 */}
             <span className="flex gap-10 border rounded-lg md:p-10 pb-5 bg-teal-500  ">
 <div>
-<p className="flex text-white font-medium pl-2 pt-5"><TiTickOutline size={23}/>HTML</p>
-<p className="flex text-white font-medium pl-2 pt-5"><TiTickOutline size={23}/>CSS</p>
-<p className="flex text-white font-medium  pl-2 pt-5"><TiTickOutline size={23}/>Javascript</p>
-<p className="flex text-white font-medium  pl-2 pt-5"><TiTickOutline size={23}/>Tailwind</p>
+<p className="flex text-white font-medium pl-2 pt-5">< Check size={23}/>HTML</p>
+<p className="flex text-white font-medium pl-2 pt-5"><Check size={23}/>CSS</p>
+<p className="flex text-white font-medium  pl-2 pt-5"><Check size={23}/>Javascript</p>
+<p className="flex text-white font-medium  pl-2 pt-5"><Check size={23}/>Tailwind</p>
 </div>
 
 <div>
-<p className="flex text-white font-medium pr-15 pt-5"><TiTickOutline size={23}/>Next.js</p>
-<p className="flex text-white font-medium pl-15 pt-5"><TiTickOutline size={23}/>Bootstrap</p>
-<p className="flex text-white font-medium pl-15 pt-5"><TiTickOutline size={23}/>React</p>
-<p className="flex text-white font-medium pl-15  pt-5"><TiTickOutline size={23}/>SQl</p>
+<p className="flex text-white font-medium pr-15 pt-5"><Check size={23}/>Next.js</p>
+<p className="flex text-white font-medium pl-15 pt-5"><Check size={23}/>Bootstrap</p>
+<p className="flex text-white font-medium pl-15 pt-5"><Check size={23}/>React</p>
+<p className="flex text-white font-medium pl-15  pt-5"><Check size={23}/>SQl</p>
 </div>
 </span>
 
@@ -85,15 +84,15 @@ export default function Home() {
  <span className=" flex  border rounded-lg gap-10 md:p-10 bg-teal-500  pb-5">
   
  <div>
- <p className="flex text-white font-medium md:pl-4 pt-5"><TiTickOutline size={23}/>MongoDB</p>
- <p className="flex text-white font-medium md:pl-4 pt-5"><TiTickOutline size={23}/>Nodejs</p>
- <p className="flex text-white font-medium  md:pl-4 pt-5"><TiTickOutline size={23}/>Express</p>
-<p className="flex text-white font-medium  md:pl-4   pt-5"><TiTickOutline size={23}/>Redux</p>
+ <p className="flex text-white font-medium md:pl-4 pt-5"><Check size={23}/>MongoDB</p>
+ <p className="flex text-white font-medium md:pl-4 pt-5"><Check size={23}/>Nodejs</p>
+ <p className="flex text-white font-medium  md:pl-4 pt-5"><Check size={23}/>Express</p>
+<p className="flex text-white font-medium  md:pl-4   pt-5"><Check size={23}/>Redux</p>
 </div>
 
  <div>
- <p className="flex text-white font-medium md:pl-10 pt-5"><TiTickOutline size={23}/>Bootstrap</p>
- <p className="flex text-white font-medium  md:pl-10 pt-5"><TiTickOutline size={23}/>React</p>
+ <p className="flex text-white font-medium md:pl-10 pt-5"><Check size={23}/>Bootstrap</p>
+ <p className="flex text-white font-medium  md:pl-10 pt-5"><Check size={23}/>React</p>
 
  </div>
  </span>
@@ -149,7 +148,7 @@ export default function Home() {
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
               <Image
-                src={"/q2.png"}
+                src={"/q2.png"} width={300} height={300}
                 className="w-60 h-40 border-b-2 rounded-t-md " alt='logo'
               />
             </div>
@@ -172,7 +171,7 @@ export default function Home() {
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
               <Image
-                src={"/q1.png"}
+                src={"/q1.png"} width={300} height={300}
                 className="w-60 h-40 border-b-2 rounded-t-md" alt='logo'
               />
             </div>
@@ -195,7 +194,7 @@ export default function Home() {
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
               <Image
-               src={"/q4.png"}
+               src={"/q4.png"} width={300} height={300}
                className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
               />
            
@@ -219,7 +218,7 @@ export default function Home() {
           <div className="shadow-md shadow-gray-600 border-2 rounded-md h-60 hover:scale-105 duration-75 ">
             <div>
               <Image
-                src={"/q5.png"}
+                src={"/q5.png"} width={300} height={300}
                 className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
               />
             </div>
@@ -241,7 +240,7 @@ export default function Home() {
           <div className="shadow-md border-2 rounded-md shadow-gray-600 h-60 hover:scale-105 duration-75 ">
             <div>
               <Image
-                src={"/q3.png"}
+                src={"/q3.png"} width={300} height={300}
                 className="w-60 h-40 border-b-2  rounded-t-md" alt='logo'
               />
             </div>
