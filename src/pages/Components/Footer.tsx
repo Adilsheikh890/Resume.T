@@ -1,28 +1,25 @@
-import { Facebook , Twitter , Linkedin , Youtube } from 'lucide-react'
-import React from 'react'
-
-
+import { Facebook, Twitter, Linkedin, Youtube } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className="bg-teal-600 h-100 ">
-        <h1 className=" pt-10  font-autograph text-4xl mb-5 text-center ">Muhammad Adil</h1>
+    <footer className="bg-teal-600 h-100">
+      <h1 className="pt-10 font-autograph text-4xl mb-5 text-center">Muhammad Adil</h1>
       <div>
-        <ol className="flex mb-5 justify-center gap-8 text-center text-white font-semibold ">
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+        <ol className="flex mb-5 justify-center gap-8 text-center text-white font-semibold">
+          <Link href="/"><li>Home</li></Link>
+          <Link href="#about"><li>About</li></Link>
+          <Link href="#skill"><li>Skill</li></Link>
+          <Link href="#portfolio"><li>Portfolio</li></Link>
+          <Link href="#contact"><li>Contact</li></Link>
         </ol>
       </div>
-
-      <div className="flex mt=20 justify-center  gap-10 pb-10">
-      <Facebook size={30}/>
-      <Linkedin size={30}/>
-      <Twitter size={30}/>
-      < Youtube size={30}/>
-      
+      <div className="flex justify-center gap-10 pb-10">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><Facebook size={30} /></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><Linkedin size={30} /></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><Twitter size={30} /></a>
+        <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><Youtube size={30} /></a>
       </div>
-    </div>
+    </footer>
   )
 }
